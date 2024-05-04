@@ -1,0 +1,171 @@
+.showItems{
+  height: auto;
+  width: auto; 
+}
+
+.card{
+  height: 310px;
+  width: 280px;
+  background:linear-gradient(to top ,#5aabcb82 ,#d4dbda7c);
+  margin: 8px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+
+.top{
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.left{
+   height: 100%;
+   width:320%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-left: 5px;
+   line-height: 0.5;
+}
+.left span{
+  margin-top: 4px;
+}
+.left strong{
+  margin-top: 10px;
+  /* color: red; */
+}
+
+.right{
+  position: relative;
+
+}
+.right  img{
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+
+.right ul{
+
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  height: 60px;
+  border-radius: 8px;
+  width: auto;
+  padding: 6px;
+  box-shadow: 0 0 8px 0;
+  line-height: 1.1; 
+  z-index: 100;
+  backdrop-filter: blur(10px); 
+}
+
+.right ul li{
+  cursor: pointer;
+  list-style: none;
+  width: 100%;
+  margin: 1px;
+  border-radius: 7px;
+  margin-left: -1px;
+  padding: 3px;
+}
+
+.right ul li a{
+   color: #534747;
+}
+
+
+.right ul li a:hover{
+   color: #21c3c0;
+}
+
+
+
+
+
+.middle{
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.middle img{
+  height: 90%;
+  width: 90%;
+  border-radius: 7px;
+  margin-top: 7%;
+  transition: all .1s;
+ 
+}
+.middle:hover img{
+  transform: scale(1.08);  
+}
+
+.bottom{
+  height: 6rem;
+  width: 100%;
+}
+
+.about{
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.about strong{
+  color:#534747;
+
+}
+.about span{
+   color: #534747;
+   font-size: .7rem;
+   line-height: 1;
+}
+
+.addCartBtn{
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.addCartBtn button{
+  width: 90%;
+  background: #ff0000b9;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all .2s;
+}
+
+
+.addCartBtn:hover button{
+    background: green;
+}
+
+.itemInfo{
+  position: absolute;
+  color: #21c3c0;
+  background: #000;
+  padding: 4px;
+  border-radius: 4px;
+  transition: all .2s;
+  right: 0;
+}
+
+.itemInfo:hover{
+     background:#a4a4149e;
+     color: chocolate;
+}
+

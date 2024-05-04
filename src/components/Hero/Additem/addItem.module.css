@@ -1,0 +1,16 @@
+.additem {
+  min-height: 90vh;
+  width: 98.7vw;
+  background: #57603651;
+  margin-top: -10px;
+}
+.form {
+  padding: 80px;
+  width: 99%;
+}
+.additem h1 {
+  text-align: center;
+  color: chocolate;
+  margin-top: 10px;
+  font-size: 2rem;
+}

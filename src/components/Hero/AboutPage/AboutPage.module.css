@@ -1,0 +1,62 @@
+.aboutpagecontainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.aboutpagecontainer h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.aboutcontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.abouttext {
+  flex: 1;
+}
+
+.about-text p {
+  marginbottom: 20px;
+}
+
+.aboutimages {
+  flex: 1;
+}
+
+img {
+  width: 80%;
+  height: 250px;
+  display: block;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutcontent {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .abouttext,
+  .aboutimages {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .abouttext {
+    padding-right: 20px;
+  }
+
+  img {
+    width: 100%;
+    height: 250px;
+    display: block;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+}
